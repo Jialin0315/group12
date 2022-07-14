@@ -1,5 +1,6 @@
 # group12
 
+
 # Title: The prognostic discovery for type 2 diabetes and its hetergeneity
 
 # Background: 
@@ -19,3 +20,15 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 ## Aim-2: Initially, we will rank the analytes using random forest. A few top ranked analytes will be explored by supervised MLs-based classifiers (i.e., logistic regression, multiple logistic regression, decision tree, and SVM) to identify the prognostics, followed by the model comparisons. 
 ## Aim-3: Applying Deep Learning classifier to identify the prognostics.
 ## Aim-4: Applying clustering algorithms (i.e., K-means, and Hierarchical clustering) to identify the disease heterogeneity.
+
+
+
+## google slide for final presentation
+https://docs.google.com/presentation/d/1pRaJSgVr7_E0SP7Fd20o3aGQw3QT2S6Ua7CX5R92J5c/edit?usp=sharing
+
+
+## things to submit:
+-dataset breakdown (an overview of what the dataset is)
+-an overview of what the project itself is
+-have github ready (i.e individual branches etc)
+
