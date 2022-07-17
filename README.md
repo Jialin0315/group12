@@ -1,3 +1,5 @@
+
+=======
 # group12
 
 
@@ -22,6 +24,19 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 ## Aim-4: Applying clustering algorithms (i.e., K-means, and Hierarchical clustering) to identify the disease heterogeneity.
 
 
+# Methods:
+
+
+Fatima
+## Clustering:
+- A form of unsupervised machine learning to discover natural grouping in input data. Both K-means clustering and Hierarchical clustering will be used and outputs will be compared.
+  - **K-means clustering:** used to find groups which have not been explicitly labeled in the data, can be used to confirm what types of groups exist and to identify unknown groups in complex data sets
+  - **Hierarchical clustering:** clusters are presented in the form of a tree, called dendrogram. Nodes are compared with one another based on their similarity, with larger groups being comprised of smalled nodes joined by similarity. 
+- The data will be refined to three analogs/parameters to determine clusters:
+  - FPG
+  - HOMA_IR
+  - 2hr_OGTT
+- Both clustering techniques, K-means and Hierarchical clustering, will be used to compare which method gives the best result for the dataset.
 
 ## google slide for final presentation
 https://docs.google.com/presentation/d/1pRaJSgVr7_E0SP7Fd20o3aGQw3QT2S6Ua7CX5R92J5c/edit?usp=sharing
@@ -32,3 +47,4 @@ https://docs.google.com/presentation/d/1pRaJSgVr7_E0SP7Fd20o3aGQw3QT2S6Ua7CX5R92
 -an overview of what the project itself is
 -have github ready (i.e individual branches etc)
 
+main
