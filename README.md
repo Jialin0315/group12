@@ -69,8 +69,10 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 
 
 ## things to submit:
--dataset breakdown (an overview of what the dataset is)
--an overview of what the project itself is
--have github ready (i.e individual branches etc)
+-Create database in RDS/MongoDB (or a database of your choice) along with tables from the ERD and the data imported in the tables.
+-Python code connecting to the database and getting bringing data back in Python.
+-Python for Exploratory Data Analysis (random forest to find the top 10 parameters).
+-Python code for training and testing the benchmark (simple) machine learning model as per your Segment 1 deliverable e.g. Logistic Regression for classification, Kmean for clustering and PCA)
+-Blue print for final dashboard (image to put in the actual dashboard)
 
 
