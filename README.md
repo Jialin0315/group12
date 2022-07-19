@@ -19,10 +19,10 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 
 ## Objectives:
 
-## Aim-1: Applying PCA to find out the influence of confounding factors in this dataset.
-## Aim-2: Initially, we will rank the analytes using random forest. A few top ranked analytes will be explored by supervised MLs-based classifiers (i.e., logistic regression, multiple logistic regression, decision tree, and SVM) to identify the prognostics, followed by the model comparisons. 
-## Aim-3: Applying Deep Learning classifier to identify the prognostics.
-## Aim-4: Applying clustering algorithms (i.e., K-means, and Hierarchical clustering) to identify the disease heterogeneity.
+### Aim-1: Applying PCA to find out the influence of confounding factors in this dataset.
+### Aim-2: Initially, we will rank the analytes using random forest. A few top ranked analytes will be explored by supervised MLs-based classifiers (i.e., logistic regression, multiple logistic regression, decision tree, and SVM) to identify the prognostics, followed by the model comparisons. 
+### Aim-3: Applying Deep Learning classifier to identify the prognostics.
+### Aim-4: Applying clustering algorithms (i.e., K-means, and Hierarchical clustering) to identify the disease heterogeneity.
 
 
 ## Methods:
