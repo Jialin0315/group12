@@ -68,7 +68,7 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 
 
 
-## things to submit:
+## things to submit for segment 2:
 -Create database in RDS/MongoDB (or a database of your choice) along with tables from the ERD and the data imported in the tables.
 
 
