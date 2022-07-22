@@ -27,8 +27,11 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 
 ## Methods:
 
-### Classification
+## Determination of confounding factors' influence in the dataset
 
+  - Human dataset always suffers from confounding factors' influence which challenge the proper classification and may integrate biases in the results. As such, it is important to determine how much influence of different confounding factors in the dataset. If this influence is substantial, we can go for dimension reduction procedure. However, it will reduce the sample size which is another important factor for unbiased discovery of prognostics. Here, we will apply PCA to identify the confounding factors and their contribution (i.e., influence) in the dataset. Based on this parameters we will decide whether we need to dimension reduction.
+
+### Classification
 
   - Rank parameters with random forest classifier model in terms of feature importance, find the top 10 parameters that relates the most to type II diabetes development.
   
@@ -42,30 +45,30 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
     - Multiple Logistic Regression predicts a single binary variable using variables obtained from the dataset. With the increasing number of parameters determined from random forest classifier model being added into consideration, the accuracy, precision, and sensitivity score should be increasing as well, and could therefore verify how the predicting power would increase with adding attribute.
   
   
-  - Apply PCA model (to determine the effect of confounding factors), and develop other classification models for analysis. For example, support vector machine model to classify the data based on the position in relation to a border between control and case individual in the study. 
+  - Apply different classification models (e.g., support vector machine model, decision tree, deep neural network, etc.) to classify the data based on the position in relation to a border between control and case individual in the study. 
   
-  
-    - By generating confusion matrix with assess of accuracy, precision, and sensitivity for each model, how reliable would the model we developed be to use for clinical prognostics for type 2 diabetes based on the data obtained from GDM women.
+  - By generating confusion matrix with assess of accuracy, precision, and sensitivity for each model, how reliable would the model we developed be to use for clinical prognostics for type 2 diabetes based on the data obtained from GDM women.
 
 
 
 ### Clustering
+- T2D is a heterogeneous diseases, usually have many subgroups within the population. This diversity challenge the success of one-model-fits-all for treatment and diagnostics. As such, the discovery of these heterogenous subgroups are essential before targeting any disease curing interventions. In this instance, clustring algorithms can play a vital roles.  
+
 - A form of unsupervised machine learning to discover natural grouping in input data. Both K-means clustering and Hierarchical clustering will be used and outputs will be compared.
 
   - **K-means clustering:** used to find groups which have not been explicitly labeled in the data, can be used to confirm what types of groups exist and to identify unknown groups in complex data sets
   
   - **Hierarchical clustering:** clusters are presented in the form of a tree, called dendrogram. Nodes are compared with one another based on their similarity, with larger groups being comprised of smalled nodes joined by similarity. 
   
-- The data will be refined to three analogs/parameters to determine clusters:
+- The data will be refined to three clinical variables/parameters to determine clusters based on their importance in T2D diagnosis:
 
   - FPG
   
   - HOMA_IR
   
   - 2hr_OGTT
-  
+ 
 - Both clustering techniques, K-means and Hierarchical clustering, will be used to compare which method gives the best result for the dataset.
-
 
 
 ## things to submit for segment 2:
