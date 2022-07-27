@@ -70,6 +70,16 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
  
 - Both clustering techniques, K-means and Hierarchical clustering, will be used to compare which method gives the best result for the dataset.
 
+# Results
+
+## Random Forest for selecting top 10 variables
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+## Predictive accuracy of Random Forest Classifier
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+## Predictive accuracy of multiple logistic regression
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+## Deep Neural Network
+We applied Deep Neural network on the dataset to find out classification accuracy.
 
 ## things to submit for segment 2:
 -Create database in RDS/MongoDB (or a database of your choice) along with tables from the ERD and the data imported in the tables.
