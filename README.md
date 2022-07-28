@@ -73,7 +73,10 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 # Results
 
 ## Random Forest for selecting top 10 variables
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+<img width="449" alt="截屏2022-07-27 下午8 34 34" src="https://user-images.githubusercontent.com/100896537/181395488-8ad28fa3-c095-496b-b5a8-7dbb86139a76.png">
+
 ## Predictive accuracy of Random Forest Classifier
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ## Predictive accuracy of multiple logistic regression
