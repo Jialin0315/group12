@@ -90,6 +90,14 @@ It selected 7 out of 10 variables and accuracy is 75% with ROC-AUC 90.5%.
 
 ## Deep Neural Network
 We applied Deep Neural network on the dataset to find out classification accuracy.
+### Density plot
+![DNN_density plot](https://user-images.githubusercontent.com/100442163/181393876-557d4538-fd92-4864-863f-84c39659acfe.png)
+
+### Defining the neural net
+![DNN_Define the net](https://user-images.githubusercontent.com/100442163/181393967-a6b46f1f-e339-47d4-8fbf-37324d5ab271.png)
+
+### Accuracy
+![DNN_Accuracy](https://user-images.githubusercontent.com/100442163/181394047-0c916bc1-63fe-4262-8511-3cd21fd96281.png)
 
 ## things to submit for segment 2:
 -Create database in RDS/MongoDB (or a database of your choice) along with tables from the ERD and the data imported in the tables.
