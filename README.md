@@ -73,9 +73,20 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 # Results
 
 ## Random Forest for selecting top 10 variables
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	  2hr_OGTT	
+    SM (OH) C22:2	
+    SM C24:1	
+    LCER(24:1)	
+    SM C20:2	
+    Kynurenine	
+    HCER(20:0)	
+    HCER(24:1)	
+    SM C16:1	
+    HCER(18:0)
+    
+    
 ## Predictive accuracy of Random Forest Classifier
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    42%
 ## Predictive accuracy of multiple logistic regression
 We have used top 10 variables found in random forest, then use them in stepwise multiple logistic regression using R-code.
 It selected 7 out of 10 variables and accuracy is 75% with ROC-AUC 90.5%.
