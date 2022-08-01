@@ -113,6 +113,34 @@ We applied Deep Neural network on the dataset to find out classification accurac
 ### Accuracy
 ![DNN_Accuracy](https://user-images.githubusercontent.com/100442163/181394047-0c916bc1-63fe-4262-8511-3cd21fd96281.png)
 
+## K-Means Clustering
+
+### Elbow Curve
+
+<img width="698" alt="Screen Shot 2022-08-01 at 5 44 15 PM" src="https://user-images.githubusercontent.com/86126331/182251530-fce16aef-b4c1-4e87-9e92-cd78728d0891.png">
+
+
+### Scatter Plot for k=4
+
+<img width="713" alt="Screen Shot 2022-08-01 at 5 44 31 PM" src="https://user-images.githubusercontent.com/86126331/182251561-c5c3038c-a2ee-4cba-b7d1-71224750b21a.png">
+
+
+### 3D Scatter Plot for k=4
+
+<img width="717" alt="Screen Shot 2022-08-01 at 5 44 52 PM" src="https://user-images.githubusercontent.com/86126331/182251610-465d6da5-5642-4407-8921-2f57251645df.png">
+
+
+## Hierarchical Clustering
+
+### Dendogram
+
+<img width="679" alt="Screen Shot 2022-08-01 at 5 43 13 PM" src="https://user-images.githubusercontent.com/86126331/182251408-6c3ab22e-14ef-4c6c-98ef-3a489223358c.png">
+
+### Scatter Plot
+
+<img width="646" alt="Screen Shot 2022-08-01 at 5 42 57 PM" src="https://user-images.githubusercontent.com/86126331/182251375-5964f347-da42-4d14-9f6e-26547167eacc.png">
+
+
 ## things to submit for segment 2:
 -Create database in RDS/MongoDB (or a database of your choice) along with tables from the ERD and the data imported in the tables.
 
