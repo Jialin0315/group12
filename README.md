@@ -72,13 +72,22 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 
 # Results
 
+## Correlation Heatmap
+
+<img width="435" alt="截屏2022-07-31 下午9 20 13" src="https://user-images.githubusercontent.com/100896537/182054920-69f25945-49c3-41a2-99b5-c97ea5efa483.png">
+
+
 ## Random Forest for selecting top 10 variables
 
 
 <img width="449" alt="截屏2022-07-27 下午8 34 34" src="https://user-images.githubusercontent.com/100896537/181395488-8ad28fa3-c095-496b-b5a8-7dbb86139a76.png">
 
 ## Predictive accuracy of Random Forest Classifier
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+The accuracy of Random Forest Classifier is 0.41.
+
+
+<img width="666" alt="截屏2022-07-31 下午9 19 23" src="https://user-images.githubusercontent.com/100896537/182054876-1958c9fa-62d9-489a-a980-22fa491aad0a.png">
+
 ## Predictive accuracy of multiple logistic regression
 We have used top 10 variables found in random forest, then use them in stepwise multiple logistic regression using R-code.
 It selected 7 out of 10 variables and accuracy is 75% with ROC-AUC 90.5%.
