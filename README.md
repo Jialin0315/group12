@@ -142,18 +142,15 @@ We applied Deep Neural network on the dataset to find out classification accurac
 
 
 ## things to submit for segment 2:
--Create database in RDS/MongoDB (or a database of your choice) along with tables from the ERD and the data imported in the tables.
+-Complete the open pull requests by finishing peer reviews and merging branches
 
 
--Python code connecting to the database and getting bringing data back in Python.
+-Create a presentation to share with the class
 
 
--Python for Exploratory Data Analysis (random forest to find the top 10 parameters).
+-Add polish to dashboard and tie up loose ends
 
 
--Python code for training and testing the benchmark (simple) machine learning model as per your Segment 1 deliverable e.g. Logistic Regression for classification, Kmean for clustering and PCA)
-
-
--Blue print for final dashboard (image to put in the actual dashboard)
+-Test your code prior to presentation
 
 
