@@ -50,7 +50,7 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
   
   - Apply different classification models (e.g., support vector machine model, decision tree, deep neural network, etc.) to classify the data based on the position in relation to a border between control and case individual in the study. 
   
-  - By generating confusion matrix with assess of accuracy, precision, and sensitivity for each model, how reliable would the model we developed be to use for clinical prognostics for type 2 diabetes based on the data obtained from GDM women.
+  - By generating confusion matrix with assess of accuracy, precision, and sensitivity for each model, how reliable would the model we developed be to use for clinical prognostics for type 2 diabetes.
 
 
 
