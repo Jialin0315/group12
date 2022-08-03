@@ -10,10 +10,11 @@
 
 ## Background: 
 
-Type 2 diabetes (T2D) is one of the most prevalent chronic diseases worldwide, a mystery for modern medicine leaving no cure. As such, the early diagnosis (prediction)  is essential to stop or delay the onset of future T2D. However, the current clinical prognostics have very poor accuracy. The appropriate human model for this exploration is the foremost challenge. Gestational diabetes mellitus (GDM) is a glucose intolerance phenomenon, that first appears during the last trimester of pregnancy, and mostly disappears after childbirth. Since GDM women have a 74% increased age-adjusted risk for future T2D, and approximately 35% of GDM women developed T2D within 10 years of postpartum, GDM women can serve as an appropriate human model for the T2D prognostic discovery. 
+Type 2 diabetes (T2D) is one of the most prevalent chronic diseases worldwide, a mystery for modern medicine leaving no cure. As such, the early diagnosis (prediction)  is essential to stop or delay the onset of future T2D. However, the current clinical prognostics have very poor accuracy which warrents the discovery of a highly accurate prognostics. 
 
-## Dataset: 
-This investigation employed a precision medicine approach on a baseline (6-9 weeks of postpartum) metabolomics dataset to develop a nested 1:1 pair-matched (i.e., age, BMI, sex, and glucose tolerance) case-control study using 60 GDM Women. Women who did not progress to T2D within few years of postpartum are classified as “Control.” Each control is then pair-matched with case women who developed T2D within same years of postpartum. 
+For prognostic or predictive diagnostic discovery, we need a longitudinal study propulation, and some of these participants should develop T2D within a few of study. Here, we are using a metabolomics dataset of a population from whom some developed T2D within 5 years. We have taken 30 participants metabolomics dataset who devepoled T2D within 5 years. We pair-matched them to 28 controls who did not developed T2D. The pair-matching was carried out using age, BMI, sex, and race.  
+
+This investigation employed a precision medicine approach on a baseline (none of them had T2D) metabolomics dataset to develop a nested pair-matched case-control study using 58 participants. participants who did not progress to T2D within few years from baseline time are classified as “Control.” Each control is then pair-matched with case participants who developed T2D within same years from baseline time point. 
 
 ## Preprocessing Dataset:
 
