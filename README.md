@@ -141,15 +141,19 @@ We applied Deep Neural network on the dataset to find out classification accurac
 <img width="646" alt="Screen Shot 2022-08-01 at 5 42 57 PM" src="https://user-images.githubusercontent.com/86126331/182251375-5964f347-da42-4d14-9f6e-26547167eacc.png">
 
 
-## things to submit for segment 2:
+## things to submit for segment 3:
 -Complete the open pull requests by finishing peer reviews and merging branches
 
 
 -Create a presentation to share with the class
-
+    - presentation should not exceed 8 minutes, will have 2 minutes for questions from the class and instructor (10 minutes in total)
+    - state problem, how it was solved (choice of model, accuracy etc), results, next steps (subject to presentation length)
+    - presentation should be 4-5 slides -> shouldn't require more slides
 
 -Add polish to dashboard and tie up loose ends
-
+    - visuals must be clear and accurate
+    - look professional
+    - relay important information
 
 -Test your code prior to presentation
 
