@@ -93,15 +93,14 @@ The accuracy of Random Forest Classifier is 0.41.
 
 ## Predictive accuracy of multiple logistic regression
 We have used top 10 variables found in random forest, then use them in stepwise multiple logistic regression using R-code.
-It selected 7 out of 10 variables and accuracy is 75% with ROC-AUC 90.5%.
+It selected 7 out of 10 variables and accuracy is 86.2% with ROC-AUC 91.3% (95% Confidence interval 84.1% - 98.5%).
 
-![MLR](https://user-images.githubusercontent.com/100442163/181392023-c72d6f45-369f-4a32-af7d-b4785809629c.png)
 
-### Accuracy table
-![MLR_Accuracy](https://user-images.githubusercontent.com/100442163/181392480-61910ba1-3961-4934-aa2d-c0311b61ba0c.png)
+![MLR_Final](https://user-images.githubusercontent.com/100442163/182738114-50f561c0-02ba-4819-bc24-01ea94ce0288.jpg)
 
 ### ROC-AUC
-![Rplot](https://user-images.githubusercontent.com/100442163/181392360-f7fec243-b7cc-4aeb-be3b-14dbf5437c6c.png)
+
+![Rplot](https://user-images.githubusercontent.com/100442163/182738335-ed40b920-0504-4609-9e5a-ee9ebe4f7480.png)
 
 ## Deep Neural Network
 We applied Deep Neural network on the dataset to find out classification accuracy.
