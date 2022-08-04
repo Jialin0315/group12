@@ -81,13 +81,13 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 
 
 ## Predictive accuracy of Random Forest Classifier
-The accuracy of Random Forest Classifier is 0.41; after modifying according to feature's correlation to target, the accuracy was increased to 79%
+The accuracy of Random Forest Classifier is 41%; after modifying according to feature's correlation to target, the accuracy was increased to 79%
 
 
 <img width="723" alt="截屏2022-08-03 下午9 15 29" src="https://user-images.githubusercontent.com/100896537/182742018-ab00339f-8331-4ca8-8fd7-ce03759ad832.png">
 
 
-## Random Forest for selecting top 10 variables
+## Top 10 important variables selected by Random Forest Classifier
 
 
 <img width="446" alt="截屏2022-08-03 下午8 02 29" src="https://user-images.githubusercontent.com/100896537/182741956-e06ff2a1-b0d0-42ff-910a-c2d0ca12b90f.png">
