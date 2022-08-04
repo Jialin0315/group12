@@ -1,8 +1,5 @@
 
-# Group12
-
-
-# Title: The prognostic discovery for type 2 diabetes and its hetergeneity
+# The prognostic discovery for type 2 diabetes and its hetergeneity
 
 ## [Google slide](https://docs.google.com/presentation/d/1pRaJSgVr7_E0SP7Fd20o3aGQw3QT2S6Ua7CX5R92J5c/edit?usp=sharing) for final presentation
 
