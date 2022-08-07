@@ -7,6 +7,8 @@
 
 ## [Tableau Dashboard](https://public.tableau.com/views/Group12databackgrounddashboard/Dashboard1?:language=zh-CN&publish=yes&:display_count=n&:origin=viz_share_link) for Dataset Background
 
+## [Tableau Dashboard](https://public.tableau.com/views/ClusteringDashboard-Group12/Clustering?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) for Clustering
+
 ## Background: 
 
 Type 2 diabetes (T2D) is one of the most prevalent chronic diseases worldwide, a mystery for modern medicine leaving no cure. As such, the early diagnosis (prediction)  is essential to stop or delay the onset of future T2D. However, the current clinical prognostics have very poor accuracy which warrents the discovery of a highly accurate prognostics. 
