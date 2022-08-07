@@ -121,26 +121,30 @@ We applied Deep Neural network on the dataset to find out classification accurac
 
 <img width="698" alt="Screen Shot 2022-08-01 at 5 44 15 PM" src="https://user-images.githubusercontent.com/86126331/182251530-fce16aef-b4c1-4e87-9e92-cd78728d0891.png">
 
+A K-value of 4 was obtained from the elbow curve of the data pertaining to the three variables being used; FPG, HOMA_IR, and 2hr_OGTT. The below 2D and 3D scatter plots were obtained.
 
-### Scatter Plot for k=4
+### Scatter Plot for k=4 
 
 <img width="713" alt="Screen Shot 2022-08-01 at 5 44 31 PM" src="https://user-images.githubusercontent.com/86126331/182251561-c5c3038c-a2ee-4cba-b7d1-71224750b21a.png">
 
 
 ### 3D Scatter Plot for k=4
 
-<img width="717" alt="Screen Shot 2022-08-01 at 5 44 52 PM" src="https://user-images.githubusercontent.com/86126331/182251610-465d6da5-5642-4407-8921-2f57251645df.png">
+<img width="729" alt="Screen Shot 2022-08-07 at 12 01 18 AM" src="https://user-images.githubusercontent.com/86126331/183274670-99928723-1149-4a84-83c4-1eb51806ea3d.png">
 
 
 ## Hierarchical Clustering
 
 ### Dendogram
 
-<img width="679" alt="Screen Shot 2022-08-01 at 5 43 13 PM" src="https://user-images.githubusercontent.com/86126331/182251408-6c3ab22e-14ef-4c6c-98ef-3a489223358c.png">
+<img width="694" alt="Screen Shot 2022-08-07 at 12 20 38 AM" src="https://user-images.githubusercontent.com/86126331/183275179-7b2a0e82-ebff-4353-beb0-a7ff1faee08d.png">
+
+A K value of 6 was seen upon analysis of the dendogram. The resulting scatter plot, using K=6, can be seen below.
+
 
 ### Scatter Plot
 
-<img width="646" alt="Screen Shot 2022-08-01 at 5 42 57 PM" src="https://user-images.githubusercontent.com/86126331/182251375-5964f347-da42-4d14-9f6e-26547167eacc.png">
+<img width="649" alt="Screen Shot 2022-08-07 at 12 08 12 AM" src="https://user-images.githubusercontent.com/86126331/183274857-960d37e3-a3fd-48ac-bce0-8b1ca4398ecc.png">
 
 
 ## things to submit for segment 3:
