@@ -31,7 +31,7 @@ Analytes (variables) with more than 5% of values missing were removed. Otherwise
 
 ## Methods:
 
-## Determination of confounding factors' influence in the dataset
+#### Determination of confounding factors' influence in the dataset
 
   - Human dataset always suffers from confounding factors' influence which challenge the proper classification and may integrate biases in the results. As such, it is important to determine how much influence of different confounding factors in the dataset. If this influence is substantial, we can go for dimension reduction procedure. However, it will reduce the sample size which is another important factor for unbiased discovery of prognostics. Here, we will apply PCA to identify the confounding factors and their contribution (i.e., influence) in the dataset. Based on this parameters we will decide whether we need to dimension reduction.
 
