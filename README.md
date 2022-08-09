@@ -144,20 +144,12 @@ A K value of 6 was seen upon analysis of the dendogram. The resulting scatter pl
 <img width="649" alt="Screen Shot 2022-08-07 at 12 08 12 AM" src="https://user-images.githubusercontent.com/86126331/183274857-960d37e3-a3fd-48ac-bce0-8b1ca4398ecc.png">
 
 
-## things to submit for segment 3:
--Complete the open pull requests by finishing peer reviews and merging branches
+## Conclusion
 
+We have discovered a 7-analyte predictor or prognostics with 86.2% accuracy for identifying future T2D onset from a blood sample of non-diabetes person using a machine learning model (i.e., the stepwise multiple logistic regression). The ROC-AUC is 91% with a confidence interval 84%-98%. Although it is a better predictor than currently available clincal testings, it is still below a benchmark >90% accuracy. It may be due to disease heterogeneity. In our clustering analyses, we have found four different subpopulations among this study participants using K-means clustering, indicating the existance of disease heterogeneity.
 
--Create a presentation to share with the class
-    - presentation should not exceed 8 minutes, will have 2 minutes for questions from the class and instructor (10 minutes in total)
-    - state problem, how it was solved (choice of model, accuracy etc), results, next steps (subject to presentation length)
-    - presentation should be 4-5 slides -> shouldn't require more slides
+## Limitations
+Low study population. Therefore, we need to reevaluate this model in other independent cohorts.
 
--Add polish to dashboard and tie up loose ends
-    - visuals must be clear and accurate
-    - look professional
-    - relay important information
-
--Test your code prior to presentation
 
 
